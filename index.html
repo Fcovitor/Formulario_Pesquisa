@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? família=Montserrat&display=swap" rel="stylesheet">
+    
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <div id="head">
+            <h1>Formulario de Pesquisa</h1>
+            <p> Este é um formulario de estudo</p>
+        </div>
+    </header>
+    <main>
+        <div id="container">
+            <form action="#" method="#" id="formulario">
+    
+                <!-- Área de Nome -->
+                <div class="nome">
+                
+                
+                <label for="nome" >Nome</label><br>
+                <input type="text" name="nome"  placeholder="Digite seu nome"><br>
+    
+                </div>  
+    
+                <!--Área de Nome -->
+    
+    
+                <!--Área de Email-->
+    
+                <div class="email">
+                <label for="email">Email</label><br>
+                <input type="email" name="email" placeholder="Digite seu Email"><br>
+                </div>
+    
+                <!--Área de Email-->
+    
+    
+                 <!--Área de Idade-->
+    
+                <div class="ano">
+    
+                    <label for="ano">Idade (Opcional)</label><br>
+                    <input type="number" name="ano" value="#" placeholder="Digite sua idade">
+    
+                </div>
+    
+                 <!--Área de Idade-->
+    
+                <div class="descPessoal">
+    
+                <!--Área de descrição pessoal-->
+                
+                <label for="ano">Opção que melhor descreve seu papel atual</label><br>
+                <input list="ano"  name="ano" placeholder="Escolha uma opção">
+                <datalist id="ano" >
+                    <option value="Estudante"></option>
+                    <option value="Dev front-end"></option>
+                    <option value="Dev back-end"></option>
+                    <option value="Full stack"></option>
+                    <option value="Pleno"></option>
+                    <option value="Senior"></option>
+                    <option value="Junior"></option>
+                </datalist>
+                <br>
+                </div>
+    
+                <!--Área de descrição pessoal-->
+    
+                
+    
+                <div class="recomendacao">
+                <!--Campo de recomendações-->
+    
+                <label for="recomenda">Recomenda?</label><br>
+    
+                <div class="Radio">
+                    <input type="radio" name="entrada" value="Definitivamente" id="recomenda" class="input-radio" >
+                    <label>Definitivamente</label>
+                </div>
+                <div class="Radio">
+                    <input type="radio"  id="recomenda"  class="input-radio" name="entrada" value="Talvez">
+                    <label>Talvez</label>
+                </div>
+                <div class="Radio">
+                    <input type="radio" name="entrada" id="recomenda"  class="input-radio" value="Não tenho certeza">
+                    <label>Não tenho certeza</label>
+                </div>
+                </div>
+    
+                <div class="favorito">
+                <label for="Favoritos"> Descrição de Favoritos</label><br>
+                    <div class="chebox">
+                        <input type="checkbox" name="Opção1" id="Favoritos">
+                        <label>Opção1</label>
+                    </div>
+                    <div class="chebox"> 
+                        <input type="checkbox" name="Opção2 " id="Favoritos">
+                        <label>Opção2</label>
+                    </div>
+                    <div class="chebox"><input type="checkbox" name="Opção3" id="Favoritos">
+                        <label>Opção3</label>
+                    </div>
+                    <div class="chebox"><input type="checkbox" name="Opção4" id="Favoritos">
+                        <label>Opção4 </label>
+                    </div>
+                    <div class="chebox"><input type="checkbox" name="Opção5" id="Favoritos"> 
+                        <label>Opção5</label>
+                    </div>  
+                </div>
+    
+                <div class="comentario">
+                    <!--Campo comentario-->
+    
+                    <label for="comentario">Comentario ou sugestão?</label><br><br>
+                    <textarea name="comentario" id="comentario" cols="60" rows="10" placeholder="Deixe seu comentario aqui..."></textarea>
+                </div>
+                  
+                    
+    
+                    <button type="submit">Enviar</button>
+            </form>
+    
+        </div>
+    </main>
+    <footer>
+        <a href="https://github.com/Fcovitor"  target="_blank">Projetado por Dev:FcoVitor</a>
+    </footer>
+    
+    
+    
+</body>
+</html>

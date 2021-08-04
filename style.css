@@ -1,0 +1,74 @@
+body{
+   background-image: url("./img/top-view.jpg"); /*fonte:<a href='https://br.freepik.com/fotos/fundo'>Fundo foto criado por freepik - br.freepik.com</a>*/
+   font-family: 'Montserrat', sans-serif;
+   color: white;
+   background-repeat: no-repeat;
+  
+}
+
+#container{
+    height: auto;
+    width: 500px;
+    background-color: rgb(69, 69, 143);
+    opacity: 0.9;
+    border: solid   rgb(69, 69, 143);
+    color: white; 
+    border-radius: 5px;  
+    margin: 10px auto  ;
+}
+
+#formulario{
+    margin-left: 0px auto;
+}
+
+.chebox, .Radio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+input{
+    border-radius: 5px;
+    height: 25px;
+}
+
+#head{
+    text-align: center;   
+}
+
+.nome, .email, .descPessoal, .ano, .recomendacao, .favorito, .comentario{
+    margin: 20px;
+}
+
+button{
+    margin: 20px;
+    border: solid green;
+    background-color: green;
+    color: white;
+    width: auto;
+    cursor: pointer;
+    
+}
+
+.comentario{
+    margin-right: 8px;
+}
+
+/*-----------------footer------------------*/
+footer{
+    text-align: center;
+    
+}
+
+
+footer a{
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    
+}
+
+footer a:hover{
+    color: 
+    #b3a39d;
+    
+}
